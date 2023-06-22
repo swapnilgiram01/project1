@@ -1,2 +1,2 @@
 # project1
-online nursery management system
+online nursery store system
