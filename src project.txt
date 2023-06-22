@@ -1,0 +1,110 @@
+Title:System Reqruiement Spefication for online nursery managment system
+
+Team: 1-akshay khadse
+      2-heemanshu bedegkar
+      3-kiran godase
+      4-swapnil giram
+
+Objective (Purpose):
+                    to create an online nursery store website that helps customers compare prices, view descriptions
+                    can comment on customization ideas, and can follow planting tips that promote gardening.
+
+Scope: Online Nursery Store overcomes lots of challenges when compared to an offline store. A separate website for plants 
+       and their accessories helps customers to view various kinds of products. It offers all the required features to the 
+       customers that let them buy, rate, and leave comments on all the products that are available in the store. Therefore, 
+       the idea of Blooming Delights An E-Commerce Website is to provide features to customers like view descriptions, 
+       ompare prices, can comment on customization ideas, and can follow planting tips that promote gardening. 
+       The website recommends customers with the most purchased products, highest-rated products, and recently
+       added products. A chatbot is developed that answers product or order-related queries to customers. 
+     
+Requirements: 
+              #functional Requirements:
+
+               1: Registration
+                  To enter the site user has to register first. Requirements of registration are name, email, password, and, security check details.
+                  Input: User Details.
+		  Output: Filled registration details.
+		  Processing: User details are checked with the database to avoid duplicate login. Password constraint is checked as per validation.
+               2: User Login
+		  Description: The system provides the facility to login into the system.
+		  Input: Enter user email and password.
+		  Processing: The system will check the input of the user and if valid then login is done. Otherwise, the user will be asked to re-check his/her credentials.
+               3: Forget password
+	          Description: The user can reset the password.
+                  Input: Email ID and security check details.
+                  Output: The user can update the password.
+                  Processing: The data will be updated in the database
+
+	       4: Purchase products
+                  Description: Customers can select a product.
+                  Input: Search for an item.
+                  Processing: Any product will be selected and displayed.
+
+               3: Comments
+                  Description: Customers can post and view comments.
+                  Input: Customers have to post his/her comments.
+                  Processing: The system will add data to the database.
+
+               6: Logout
+                  Description: The system provides a facility to log out from the site.
+                  Input: Select the logout option.
+                  Output: Logout from the system.
+                  Processing: The user will be logged out.
+        ADMIN:
+
+		1: Admin Login
+		Description: The system provides the facility to login into the system.
+		Input: Enter user email and password.
+		Processing: The system will check the admin’s input; if valid, then login is
+		done. Otherwise, the admin will be asked to re-check his/her credentials.
+
+		2: Add Products
+		Description: Admin can add a product.
+		Input: Enter the product details.
+		Output: Added product is displayed under entered category.
+		Processing: The system will add the product to the database.
+
+		3: Edit /Delete Products
+		Description: The admin can edit or delete a product.
+		Input: Enter the product details.
+		Processing: The system will make the changes in the database.
+
+		4: Delete Comments
+		Description: Admin can delete inappropriate comments.
+		Output: Deleted comments are not displayed.
+		Processing: The system will make the changes in the database.
+
+		5: Logout
+		Description: The system provides a facility to log out from the site.
+		Input: Select the logout option.
+		Output: Logout from the system.
+		Processing: The admin will be logged out.
+
+	#Non-Functional Requirements:
+		Performance Requirements
+
+		The system needs to be reliable.
+		If unable to process the request, then an appropriate error message will be displayed.
+		Web pages are loaded within a few seconds.
+
+		Safety Requirements
+
+		The details need to be maintained properly.
+		Users must be authenticated.
+
+		Security Requirements
+
+		After entering the password and user id the user can access his/her profile.
+		The details of the user must be safe and secure.
+
+CONCLUSION & FUTURE SCOPE
+		Blooming Delights is an online nursery store website, that provides a platform to buy seeds, plants, tools, and different related products. 
+		It offers all the required features to the customers that let them buy, rate, and leave comments on a
+		ll the products that are available in the store. The description of each product is available to soothe the selection. Hence,
+ 		Customers can compare prices, can comment on customization ideas, and can follow planting tips that promote gardening. 
+                The future work of this project is to improve various categories, add different kinds of payment modes, and send order-related updates by E-mail or SMS.
+
+
+
+
+
